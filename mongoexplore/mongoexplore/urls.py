@@ -6,7 +6,7 @@ from django.conf.urls import patterns, include, url
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'users.views.create', name='create'),
+    url(r'^create/(?P<anystring>[-\w]+)/$', 'users.views.create', name='create'),
     # url(r'^mongoexplore/', include('mongoexplore.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
