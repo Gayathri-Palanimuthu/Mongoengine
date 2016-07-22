@@ -14,4 +14,10 @@ I prefer using Mongoengine (atleast to startwith) for its django like syntax and
 MongoEngine is built upon pymongo so of course you can drop into pymongo - or use raw pymongo in your code methods.
 
  Mongoengine, looks similar to how the structure of a table would be defined in a regular ORM. The key difference is that this schema will never be passed on to MongoDB — this will only be enforced at the application level, making future changes easy to manage.
+ 
+Command to start mongo server on windows > mongod
+Command for mongoshell > mongo
+
+
+ 
 
